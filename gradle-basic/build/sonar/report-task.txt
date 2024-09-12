@@ -1,6 +1,0 @@
-projectKey=Example-of-SonarScanner-for-Gradle-Usage-Evaluate
-serverUrl=http://localhost:9997
-serverVersion=10.1.0.73491
-dashboardUrl=http://localhost:9997/dashboard?id=Example-of-SonarScanner-for-Gradle-Usage-Evaluate
-ceTaskId=AZHfns6RMBj8fNLJ07IF
-ceTaskUrl=http://localhost:9997/api/ce/task?id=AZHfns6RMBj8fNLJ07IF
