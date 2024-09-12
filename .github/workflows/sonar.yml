@@ -26,5 +26,5 @@ jobs:
         ./gradlew sonar \
         -Dsonar.host.url=http://localhost:9997 \  # Connects to your SonarQube running locally
         -Dsonar.login=${{ secrets.SONARQUBE_TOKEN }} \  # SonarQube token for authentication
-        -Dsonar.projectKey=your-project-key \  # Replace with your actual project key
-        -Dsonar.projectName=your-project-name  # Replace with your desired project name
+        -Dsonar.projectKey=Github-Sonar-Integrations \  # Replace with your actual project key
+        -Dsonar.projectName=Github-Sonar-Integrations  # Replace with your desired project name
