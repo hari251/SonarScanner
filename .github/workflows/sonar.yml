@@ -22,6 +22,9 @@ jobs:
         path: ~/.sonar/cache
         key: ${{ runner.os }}-sonar
 
+    - name: Make gradlew executable
+      run: chmod +x ./gradlew
+
     - name: Run SonarQube analysis
       run: |
         ./gradlew sonar \
