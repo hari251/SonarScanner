@@ -2,6 +2,10 @@ name: SonarCloud Analysis
 
 on:
   workflow_dispatch:  # This allows manual triggering
+  push:
+    branches:
+      - 'main'          # Trigger on pushes to the main branch
+      - 'release*'      # Trigger on pushes to any branch starting with 'release'
 
 jobs:
   sonar:
