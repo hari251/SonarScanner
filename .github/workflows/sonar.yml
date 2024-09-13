@@ -32,4 +32,4 @@ jobs:
         -Dsonar.organization=${{ secrets.SONAR_ORG }} \
         -Dsonar.login=${{ secrets.SONAR_TOKEN }} \
         -Dsonar.projectKey=${{ secrets.SONAR_PROJECT_KEY }} \
-        -Dsonar.projectName=SonarScanner
+        -Dsonar.projectName=ExampleSonarScannerGradle
