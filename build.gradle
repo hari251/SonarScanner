@@ -10,11 +10,11 @@ description = 'Example of SonarScanner for Gradle Usage'
 
 sonar {
     properties {
-        property('sonar.projectName', "Example of SonarScanner for Gradle Usage")
-        property("sonar.projectKey", "Example-of-SonarScanner-for-Gradle-Usage-Evaluate")
+        property('sonar.projectName', "ExampleSonarScannerGradle")
+        property("sonar.projectKey", "hari251_examplesonarscannergradle")
         property("sonar.sources", "src/main")
         property "sonar.tests", "src/test"
-	property("sonar.token", "sqp_ad5b40ed7deba8a85ed75c0b432edddce014aeff")
+	property("sonar.token", "96cdaf60c76c22574afc2185b13e1b3656be894e")
 	//property("sonar.scm.provider", "local")  // Set the SCM provider as none
     }
 }
