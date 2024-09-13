@@ -3,6 +3,7 @@ package com.acme;
 public class App {
     public String getGreeting() {
 		//System.out.println(new App().getGreeting());
+	//return ;    
         return "Hello world.";
 		
     }
